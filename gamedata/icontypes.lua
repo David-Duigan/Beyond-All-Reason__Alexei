@@ -135,6 +135,10 @@ local icontypes = {
 		bitmap = "icons/air_trans.png",
 		size = 1.36499989
 	},
+	leglts = {
+		bitmap = "icons/air_trans.png",
+		size = 1.36499989
+	},
 	armhvytrans = {
 		bitmap = "icons/air_trans.png",
 		size = 1.5
@@ -671,10 +675,6 @@ local icontypes = {
 		bitmap = "icons/ship.png",
 		size = 1
 	},
-	armptl = {
-		bitmap = "icons/defence_1_naval.png",
-		size = 1.10249984
-	},
 	armptt2 = {
 		bitmap = "icons/ship_t3_pt.png",
 		size = 2.29999995
@@ -978,10 +978,6 @@ local icontypes = {
 	armuwgeo = {
 		bitmap = "icons/energy6_1.3.png",
 		size = 1.36499989
-	},
-	armuwmex = {
-		bitmap = "icons/mex_t1.png",
-		size = 0.80849993
 	},
 	armuwmme = {
 		bitmap = "icons/mex_t2.png",
@@ -1663,6 +1659,18 @@ local icontypes = {
 		bitmap = "icons/mine.png",
 		size = 0.55649996
 	},
+	legmine1 = {
+		bitmap = "icons/mine.png",
+		size = 0.37799999
+	},
+	legmine2 = {
+		bitmap = "icons/mine.png",
+		size = 0.46199998
+	},
+	legmine3 = {
+		bitmap = "icons/mine.png",
+		size = 0.55649996
+	},
 	cormine4 = {
 		bitmap = "icons/mine.png",
 		size = 0.46199998
@@ -1778,10 +1786,6 @@ local icontypes = {
 	corpt = {
 		bitmap = "icons/ship.png",
 		size = 1.14999998
-	},
-	corptl = {
-		bitmap = "icons/defence_1_naval.png",
-		size = 1.10249984
 	},
 	corpun = {
 		bitmap = "icons/def_t1_arty.png",
@@ -2055,10 +2059,6 @@ local icontypes = {
 		bitmap = "icons/energy6_1.3.png",
 		size = 1.36499989
 	},
-	coruwmex = {
-		bitmap = "icons/mex_t1.png",
-		size = 0.80849993
-	},
 	coruwmme = {
 		bitmap = "icons/mex_t2.png",
 		size = 1.20749986
@@ -2249,7 +2249,7 @@ local icontypes = {
 	},
 	legatrans = {
 		bitmap = "icons/air_trans.png",
-		size = 1.36499989
+		size = 1.5
 	},
 	legavp = {
 		bitmap = "icons/factory_vehicle_t2.png",
@@ -2500,8 +2500,12 @@ local icontypes = {
 		size = 1
 	},
 	legkark = {
+		bitmap = "icons/bot_t15_heat_shot.png",
+		size = 1.3
+	},
+	corkark = {
 		bitmap = "icons/legkark.png",
-		size = 1.20000005
+		size = 1.3
 	},
 	legkeres = {
 		bitmap = "icons/vehicle_t3_tank_mgun.png",
